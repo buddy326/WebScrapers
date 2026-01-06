@@ -1,0 +1,768 @@
+-----
+-----
+[2026-01-05T22:08:01.725201] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=1&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FJumper-16in-2-1-Laptop-FHD-Touchscreen-Windows-11-16GB-DDR4-640GB-ROM-Laptops-Convertible-Tablet-Computer-4-Core-Intel-Celeron-Processor-360-Flip-1yr%2F5EBND6WU99U8&adUid=21d75fc7-2864-49bc-afe9-9cae85364e01&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Sfy5EQDWFGV3mS9pKlyS0U-UcW9o8fDEC7jUrTgcEVNl0fqjUJcmGY_d4u8wVCVk0rrZfHDov11xv55eTNPz3-Kd1EuIAyI3H3PlHRXTCn0WkE7qCezf4rYbNg2GabgqB-Brt2p8mui2xI_T_4ykJrcS-pqydkYMOz_F7ZFYc4XlXtl_YhdR3ybLKT2spC1patHsh7-dxZFOnjB50BxSBvIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Jumper-16in-2-1-Laptop-FHD-Touchscreen-Windows-11-16GB-DDR4-640GB-ROM-Laptops-Convertible-Tablet-Computer-4-Core-Intel-Celeron-Processor-360-Flip-1yr/5EBND6WU99U8
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:02.843360] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=2&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FExsurf-14-1-Windows-11-Pro-Student-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen-Pink%2F4UYNORQ4MBXL&adUid=21d75fc7-2864-49bc-afe9-9cae85364e01&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=CMduPR0ot9q40u4IVEc9CONw0_Eo6t_mEh7Wlwp2MSXzYLLmgmP2hhTDYFALFU804gGzLI06uGUTu5KB6CRUwU921bug_NC-8bB3KuUylNcBNBXgA4BLo8qnpULmohuP-j3qdKjfH4Ug0c38YQbsgFlTbDJSY0K3sxkWCdFqIoi-gduBTXgUSH-0zv5PWgQ_OhmAhj-ju8zRFjKbk41vSeeFBLdyKGhAyf9lj9Al0qeVT2Ty5Ohunu6C0gIWaEiZ&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Exsurf-14-1-Windows-11-Pro-Student-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen-Pink/4UYNORQ4MBXL
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:03.770757] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=3&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FExsurf-14-1-Windows-11-Pro-Home-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen%2F2QUQO1RAO4G5&adUid=21d75fc7-2864-49bc-afe9-9cae85364e01&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=QyauUXQyYRyNSz6paNvmVsDQj9L7V108XPODIrh3r8zzYLLmgmP2hhTDYFALFU80k17sLe71gGV0Ro7ZUiFRyuKd1EuIAyI3H3PlHRXTCn1vhXnM2BE_0zd2_nBxd_UYV_Co1NhlYfKm2vmED512cagBsms7uoGYozy0nGbQ1zdQ6XYfLh5M0tNXHtp6E8gX4jDnlcgrQSwOj-6-2s0h9PIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Exsurf-14-1-Windows-11-Pro-Home-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen/2QUQO1RAO4G5
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:04.191191] ERROR for https://walmart.com/en/ip/Dell-OptiPlex-9020-Small-Form-PC-Desktop-Computer-Intel-i5-8GB-500GB-HDD-Windows-10-Pro-New-23-6-FHD-V7-LED-Monitor-Wireless-Keyboard-Mouse-16GB-Flas/2U9SM0H1DCMV?classType=REGULAR&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:04.566952] ERROR for https://walmart.com/en/ip/ASUS-Chromebook-CB14-14-FHD-NanoEdge-Display-Intel-Celeron-4500-Processor-64GB-eMMC-4GB-RAM-ChromeOS-Misty-Grey-CB1405CKA-WS01-CB/74DF5JWDZL9I?classType=REGULAR&athbdg=L1102&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:04.976727] ERROR for https://walmart.com/en/ip/Acer-Aspire-Lite-15-6-FHD-IPS-Laptop-Intel-N4500-4GB-RAM-64GB-eMMC-Windows-11S/450Z559YRIEV?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:05.865305] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=7&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FAuusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink%2F6BW5U13OGMMG&adUid=21d75fc7-2864-49bc-afe9-9cae85364e01&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Igz_PG8Gs6Y7p44dJOJwTD-Zuqw-KCSN7RArUJ9CbbGoepbU_PrOlAfwU9KEWgU45SOGZdJHsOV84Mr5suv-7U921bug_NC-8bB3KuUylNcZwvj8F-L4fjX6FRRCscchNY3pp2u9cw0455SlVpgRfswhgk1-dLiHB85cfKSRDQeZRvrKIHWvSPJ1FjXLFghCSfhQoGXojvpl78AEuL3C2ueFBLdyKGhAyf9lj9Al0qeVT2Ty5Ohunu6C0gIWaEiZ&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Auusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink/6BW5U13OGMMG
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:07.047990] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=7&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FAuusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink%2F6BW5U13OGMMG&adUid=21d75fc7-2864-49bc-afe9-9cae85364e01&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Igz_PG8Gs6Y7p44dJOJwTD-Zuqw-KCSN7RArUJ9CbbGoepbU_PrOlAfwU9KEWgU45SOGZdJHsOV84Mr5suv-7U921bug_NC-8bB3KuUylNcZwvj8F-L4fjX6FRRCscchNY3pp2u9cw0455SlVpgRfswhgk1-dLiHB85cfKSRDQeZRvrKIHWvSPJ1FjXLFghCSfhQoGXojvpl78AEuL3C2ueFBLdyKGhAyf9lj9Al0qeVT2Ty5Ohunu6C0gIWaEiZ&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Auusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink/6BW5U13OGMMG
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:07.407473] ERROR for https://walmart.com/en/ip/HP-250-G9-15-6-Business-Students-Laptop-Intel-celeron-N4500-Processor-HD-Display-16GB-RAM-256GB-SSD-HDMI-Webcam-Wifi-Bluetooth-Windows-11-Home/23W5RG9BL6YT?classType=VARIANT&athbdg=L1700&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:07.883525] ERROR for https://walmart.com/en/ip/HP-250-G9-15-6-Business-Students-Laptop-Intel-celeron-N4500-Processor-HD-Display-16GB-RAM-256GB-SSD-HDMI-Webcam-Wifi-Bluetooth-Windows-11-Home/23W5RG9BL6YT?classType=VARIANT&athbdg=L1700
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:08.437697] ERROR for https://walmart.com/en/ip/ASUS-Vivobook-Go-14-L410-Thin-Light-Laptop-14-FHD-Display-Intel-Celeron-N4500-4GB-RAM-128GB-eMMC-Windows-11-Home-S-Mode-1-Year-Microsoft-365-Peacock/1F4DLU4A81U9?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:08.853507] ERROR for https://walmart.com/en/ip/Dell-OptiPlex-3020-Small-Form-Factor-Computer-PC-3-20-GHz-Intel-i5-Quad-Core-Gen-4-8GB-DDR3-RAM-120GB-SSD-Hard-Drive-Windows-10-Professional-64-bit-1/1RCUPL1UICR0?classType=REGULAR&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:11.603888] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=1&tax=10003_-1_30548&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FJumper-16in-2-1-Laptop-FHD-Touchscreen-Windows-11-16GB-DDR4-640GB-ROM-Laptops-Convertible-Tablet-Computer-4-Core-Intel-Celeron-Processor-360-Flip-1yr%2F5EBND6WU99U8&adUid=af985c37-fb84-488c-9964-b6d22f97b734&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Sfy5EQDWFGV3mS9pKlyS0U-UcW9o8fDEC7jUrTgcEVNl0fqjUJcmGY_d4u8wVCVk0rrZfHDov11xv55eTNPz38HNuth94xrVzOl2W4m2RcAWkE7qCezf4rYbNg2GabgqB-Brt2p8mui2xI_T_4ykJi_TFRdZxLdZ8B7kyfZ3fWtFVPiazenxCKYAFg4v8-SxatHsh7-dxZFOnjB50BxSBvIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Jumper-16in-2-1-Laptop-FHD-Touchscreen-Windows-11-16GB-DDR4-640GB-ROM-Laptops-Convertible-Tablet-Computer-4-Core-Intel-Celeron-Processor-360-Flip-1yr/5EBND6WU99U8
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:12.476504] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=2&tax=10003_-1_30548&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FExsurf-14-1-Windows-11-Pro-Student-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen-Pink%2F4UYNORQ4MBXL&adUid=af985c37-fb84-488c-9964-b6d22f97b734&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=CMduPR0ot9q40u4IVEc9CONw0_Eo6t_mEh7Wlwp2MSXzYLLmgmP2hhTDYFALFU804gGzLI06uGUTu5KB6CRUwRj12B3sV6nvMSsAcmanVlIBNBXgA4BLo8qnpULmohuP-j3qdKjfH4Ug0c38YQbsgNRL9SX-3KcA-rxy-vmKfwk_1dN4eVwzf95jBBRdwdB7nAffGJ91ez10U-C-ijKPD801AQgR9RMw6z_AAeEwBGc&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Exsurf-14-1-Windows-11-Pro-Student-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen-Pink/4UYNORQ4MBXL
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:13.482718] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=3&tax=10003_-1_30548&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FExsurf-14-1-Windows-11-Pro-Home-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen%2F2QUQO1RAO4G5&adUid=af985c37-fb84-488c-9964-b6d22f97b734&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=QyauUXQyYRyNSz6paNvmVsDQj9L7V108XPODIrh3r8zzYLLmgmP2hhTDYFALFU80k17sLe71gGV0Ro7ZUiFRytLznK82SDYvvKDu7xLQ1qdvhXnM2BE_0zd2_nBxd_UYV_Co1NhlYfKm2vmED512cUteo-_Z4WCsIj5wA-s_vLAo9nR3UyAt9MBNQyBmNkGYXYYCjM656y_inA2jBouMCjpYWCu3O7wF62cHVmX9zos&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Exsurf-14-1-Windows-11-Pro-Home-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen/2QUQO1RAO4G5
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:13.912305] ERROR for https://walmart.com/en/ip/HP-VICTUS-15-FB2009CA-15-6-Inch-Gaming-Laptop-16GB-RAM-512GB-SSD-AMD-Ryzen-5-7535HS-AMD-Radeon-RX-6550M-Graphics/65PIA57WJLGL?classType=REGULAR&athbdg=L1700&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:14.481837] ERROR for https://walmart.com/en/ip/HP-Workstation-Z240-SFF-Desktop-PC-Computer-Core-i5-6500-16-GB-128-GB-SSD-Windows-10-Pro-Power-cord-Keyboard-Mouse-WiFi-Refurbished/1NGZ5OMNV016?classType=REGULAR&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:14.830699] ERROR for https://walmart.com/en/ip/Lenovo-ThinkCentre-M900-Quad-Core-Intel-i5-6500-3-60-GHz-8GB-500GB-DVD-FHD-1920-x-1080-Windows-10-Professional-10FGS0FG00-Refurbished/54A5GG7K82RP?classType=VARIANT&athbdg=L1600&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:15.195047] ERROR for https://walmart.com/en/ip/Lenovo-ThinkCentre-M900-Quad-Core-Intel-i5-6500-3-60-GHz-8GB-500GB-DVD-FHD-1920-x-1080-Windows-10-Professional-10FGS0FG00-Refurbished/54A5GG7K82RP?classType=VARIANT&athbdg=L1600
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:16.566312] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=7&tax=10003_-1_30548&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FAuusda-16-Business-Laptop-Windows-11-Pro-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Silver%2F69JBH5TPM0ND&adUid=af985c37-fb84-488c-9964-b6d22f97b734&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=-CXI_P2dwvGuUp9GCbASyi6OI7CldqGXa67elnRigtioepbU_PrOlAfwU9KEWgU4_nHy1ecoXskCvbrVAYAmSdLznK82SDYvvKDu7xLQ1qeIoxq4cE00xl6YGSmiaoPZoLzvr3ipqhJUfr9D7HIuwIoqkLdTRH1ydZeYIbkqz_LjyFPvdW7S3XxhFJJWJBXJuMsj_QbOLiq_I037aEm_3PIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Auusda-16-Business-Laptop-Windows-11-Pro-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Silver/69JBH5TPM0ND
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:17.594310] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=7&tax=10003_-1_30548&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FAuusda-16-Business-Laptop-Windows-11-Pro-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Silver%2F69JBH5TPM0ND&adUid=af985c37-fb84-488c-9964-b6d22f97b734&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=-CXI_P2dwvGuUp9GCbASyi6OI7CldqGXa67elnRigtioepbU_PrOlAfwU9KEWgU4_nHy1ecoXskCvbrVAYAmSdLznK82SDYvvKDu7xLQ1qeIoxq4cE00xl6YGSmiaoPZoLzvr3ipqhJUfr9D7HIuwIoqkLdTRH1ydZeYIbkqz_LjyFPvdW7S3XxhFJJWJBXJuMsj_QbOLiq_I037aEm_3PIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Auusda-16-Business-Laptop-Windows-11-Pro-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Silver/69JBH5TPM0ND
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:17.968719] ERROR for https://walmart.com/en/ip/T-C-Laptop-Computer-10-1-Inch-Kids-Laptop-powered-by-Android-7-1-1-OS-2gb-Ram-32gb-Rom-Bluetooth-Wi-Fi-Blue/10O7ILQEV9QU?classType=REGULAR&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:18.378187] ERROR for https://walmart.com/en/ip/Hp-Desktop-SFF-PC-Computer-Intel-Core-i7-Processor-Up-to-4-00GHz-16GB-RAM-512GB-SSD-WIFI-Windows-11-Pro-Refurbished/7BK6HVOW2951?classType=REGULAR&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:18.830539] ERROR for https://walmart.com/en/ip/HP-15-6-Inch-Laptop-PC-15-fc0009ca-AMD-Ryzen-3-8-GB-RAM-1-TB-Hard-Drive-or-SSD-Microsoft-Windows-11-Home/6000206481677?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:21.477938] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=1&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FJumper-16in-2-1-Laptop-FHD-Touchscreen-Windows-11-16GB-DDR4-640GB-ROM-Laptops-Convertible-Tablet-Computer-4-Core-Intel-Celeron-Processor-360-Flip-1yr%2F5EBND6WU99U8&adUid=5e72fb50-1db6-4c53-9224-054c138ab23b&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Sfy5EQDWFGV3mS9pKlyS0U-UcW9o8fDEC7jUrTgcEVNl0fqjUJcmGY_d4u8wVCVk0rrZfHDov11xv55eTNPz3w9n3kCCAlTXXogRggLjFc_PitCepzyOXVL-Y-PGGCT3B-Brt2p8mui2xI_T_4ykJng7hg_VfxGR8j-XK0RrUWYbrqLmT7MzegYNjPZsDJojatHsh7-dxZFOnjB50BxSBvIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Jumper-16in-2-1-Laptop-FHD-Touchscreen-Windows-11-16GB-DDR4-640GB-ROM-Laptops-Convertible-Tablet-Computer-4-Core-Intel-Celeron-Processor-360-Flip-1yr/5EBND6WU99U8
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:22.628887] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=2&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FExsurf-14-1-Windows-11-Pro-Student-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen-Pink%2F4UYNORQ4MBXL&adUid=5e72fb50-1db6-4c53-9224-054c138ab23b&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=CMduPR0ot9q40u4IVEc9CONw0_Eo6t_mEh7Wlwp2MSXzYLLmgmP2hhTDYFALFU804gGzLI06uGUTu5KB6CRUwavUJrbD-4-wrfjzRKJCs83MwW7uXe6dBH4Iy6Mr0PiS-j3qdKjfH4Ug0c38YQbsgBTu6Ztem8AsHbEOPEd4dMFBWbsyqNlygx-iSfSPuvzROhmAhj-ju8zRFjKbk41vSeeFBLdyKGhAyf9lj9Al0qeVT2Ty5Ohunu6C0gIWaEiZ&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Exsurf-14-1-Windows-11-Pro-Student-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen-Pink/4UYNORQ4MBXL
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:23.946845] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=3&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FExsurf-14-1-Windows-11-Pro-Home-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen%2F2QUQO1RAO4G5&adUid=5e72fb50-1db6-4c53-9224-054c138ab23b&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=QyauUXQyYRyNSz6paNvmVsDQj9L7V108XPODIrh3r8zzYLLmgmP2hhTDYFALFU80k17sLe71gGV0Ro7ZUiFRyg9n3kCCAlTXXogRggLjFc-K2dSSYIuhiVNrkbLZqdw4V_Co1NhlYfKm2vmED512cR-ld-JncTnWhHywhbD87cqgOKip4DOh4-keKjOlFfWq4jDnlcgrQSwOj-6-2s0h9PIIgApoZ7PD5N719u1EOE0&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Exsurf-14-1-Windows-11-Pro-Home-Laptop-16GB-RAM-512GB-SSD-Intel-Celeron-N5100-Computer-1080p-Screen/2QUQO1RAO4G5
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:24.370871] ERROR for https://walmart.com/en/ip/ViprTech-Stryker-3-0-Gaming-PC-AMD-Ryzen-7-4-1GHz-RTX-3060-12G-16GB-DDR4-1T-SSD-Desktop-White/7347WXWUSTXG?classType=REGULAR&athbdg=L1700&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:24.780514] ERROR for https://walmart.com/en/ip/Dell-Optiplex-3060-Desktop-Computer-Intel-i5-8500-3-2-32GB-DDR4-RAM-500GB-SSD-Solid-State-Windows-11-Professional-Home-Office-PC-Refurbished/4MBVQU5JBSNK?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:08:25.359161] ERROR for https://walmart.com/en/ip/ASUS-V400-AiO-V470VA-27-All-in-One-Desktop-Computer-Intel-Core-i5-13420H-proc-FHD-1920-x-1080-NanoEdge-Display-16GB-DDR5-RAM-512GB-SSD-Wired-Kybd-Mou/5SN9KROJCIHS?classType=REGULAR&from=/search
+Exception: KeyError('initialTempoData')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 94, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 54, in extract_product_info
+    initial_data = data["props"]["pageProps"]["initialTempoData"]["data"]
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'initialTempoData'
+
+-----
+[2026-01-05T22:12:37.139636] ERROR for https://walmart.com/en/ip/Dell-OptiPlex-9020-Small-Form-PC-Desktop-Computer-Intel-i5-8GB-500GB-HDD-Windows-10-Pro-New-23-6-FHD-V7-LED-Monitor-Wireless-Keyboard-Mouse-16GB-Flas/2U9SM0H1DCMV?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:37.582263] ERROR for https://walmart.com/en/ip/ASUS-Chromebook-CB14-14-FHD-NanoEdge-Display-Intel-Celeron-4500-Processor-64GB-eMMC-4GB-RAM-ChromeOS-Misty-Grey-CB1405CKA-WS01-CB/74DF5JWDZL9I?classType=REGULAR&athbdg=L1102&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:38.017268] ERROR for https://walmart.com/en/ip/Acer-Aspire-Lite-15-6-FHD-IPS-Laptop-Intel-N4500-4GB-RAM-64GB-eMMC-Windows-11S/450Z559YRIEV?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:40.859107] ERROR for https://walmart.com/en/ip/HP-250-G9-15-6-Business-Students-Laptop-Intel-celeron-N4500-Processor-HD-Display-16GB-RAM-256GB-SSD-HDMI-Webcam-Wifi-Bluetooth-Windows-11-Home/23W5RG9BL6YT?classType=VARIANT&athbdg=L1700&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:41.269124] ERROR for https://walmart.com/en/ip/HP-250-G9-15-6-Business-Students-Laptop-Intel-celeron-N4500-Processor-HD-Display-16GB-RAM-256GB-SSD-HDMI-Webcam-Wifi-Bluetooth-Windows-11-Home/23W5RG9BL6YT?classType=VARIANT&athbdg=L1700
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:41.752529] ERROR for https://walmart.com/en/ip/ASUS-Vivobook-Go-14-L410-Thin-Light-Laptop-14-FHD-Display-Intel-Celeron-N4500-4GB-RAM-128GB-eMMC-Windows-11-Home-S-Mode-1-Year-Microsoft-365-Peacock/1F4DLU4A81U9?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:42.198736] ERROR for https://walmart.com/en/ip/Dell-OptiPlex-3020-Small-Form-Factor-Computer-PC-3-20-GHz-Intel-i5-Quad-Core-Gen-4-8GB-DDR3-RAM-120GB-SSD-Hard-Drive-Windows-10-Professional-64-bit-1/1RCUPL1UICR0?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:47.491421] ERROR for https://walmart.com/en/ip/HP-VICTUS-15-FB2009CA-15-6-Inch-Gaming-Laptop-16GB-RAM-512GB-SSD-AMD-Ryzen-5-7535HS-AMD-Radeon-RX-6550M-Graphics/65PIA57WJLGL?classType=REGULAR&athbdg=L1700&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:47.992929] ERROR for https://walmart.com/en/ip/HP-Workstation-Z240-SFF-Desktop-PC-Computer-Core-i5-6500-16-GB-128-GB-SSD-Windows-10-Pro-Power-cord-Keyboard-Mouse-WiFi-Refurbished/1NGZ5OMNV016?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:48.512834] ERROR for https://walmart.com/en/ip/Lenovo-ThinkCentre-M900-Quad-Core-Intel-i5-6500-3-60-GHz-8GB-500GB-DVD-FHD-1920-x-1080-Windows-10-Professional-10FGS0FG00-Refurbished/54A5GG7K82RP?classType=VARIANT&athbdg=L1600&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:49.126033] ERROR for https://walmart.com/en/ip/Lenovo-ThinkCentre-M900-Quad-Core-Intel-i5-6500-3-60-GHz-8GB-500GB-DVD-FHD-1920-x-1080-Windows-10-Professional-10FGS0FG00-Refurbished/54A5GG7K82RP?classType=VARIANT&athbdg=L1600
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:51.388241] ERROR for https://walmart.com/en/ip/T-C-Laptop-Computer-10-1-Inch-Kids-Laptop-powered-by-Android-7-1-1-OS-2gb-Ram-32gb-Rom-Bluetooth-Wi-Fi-Blue/10O7ILQEV9QU?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:51.902698] ERROR for https://walmart.com/en/ip/Hp-Desktop-SFF-PC-Computer-Intel-Core-i7-Processor-Up-to-4-00GHz-16GB-RAM-512GB-SSD-WIFI-Windows-11-Pro-Refurbished/7BK6HVOW2951?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:52.384464] ERROR for https://walmart.com/en/ip/HP-15-6-Inch-Laptop-PC-15-fc0009ca-AMD-Ryzen-3-8-GB-RAM-1-TB-Hard-Drive-or-SSD-Microsoft-Windows-11-Home/6000206481677?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:57.829312] ERROR for https://walmart.com/en/ip/Dell-Optiplex-3060-Desktop-Computer-Intel-i5-8500-3-2-32GB-DDR4-RAM-500GB-SSD-Solid-State-Windows-11-Professional-Home-Office-PC-Refurbished/4MBVQU5JBSNK?classType=REGULAR&athbdg=L1600&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:58.257402] ERROR for https://walmart.com/en/ip/ASUS-V400-AiO-V470VA-27-All-in-One-Desktop-Computer-Intel-Core-i5-13420H-proc-FHD-1920-x-1080-NanoEdge-Display-16GB-DDR5-RAM-512GB-SSD-Wired-Kybd-Mou/5SN9KROJCIHS?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:12:58.712481] ERROR for https://walmart.com/en/ip/ASUS-Chromebook-Plus-CX34-Laptop-14-FHD-1920x1080-Touchscreen-Intel-Core-5-Processor-120U-512GB-SSD-16GB-LPDDR5-RAM-ChromeOS-Gray-CX3402CVA-DSU51T-CB/3L6NGO4EVYAW?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:01.122008] ERROR for https://walmart.com/en/ip/HP-Desktop-SFF-PC-Computer-Core-i5-16GB-RAM-512GB-SSD-Windows-10-Pro-WiFi-Refurbished/1XWUH0RQWLUJ?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:01.551476] ERROR for https://walmart.com/en/ip/ViprTech-Rebel-4-0-Gaming-PC-AMD-Ryzen-7-4-1GHz-RTX-4060-Ti-8GB-16GB-DDR4-1TB-SSD-Desktop-W/3MP9RXT7KD7O?classType=REGULAR&athbdg=L1700&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:01.985313] ERROR for https://walmart.com/en/ip/ViprTech-Reaper-1-0-Liquid-Cooled-PC-AMD-Ryzen-7-8700F-5GHz-RTX-3060-12G-16GB-DDR5-1TB-SSD/4XUCDUKOY17K?classType=VARIANT&athbdg=L1700&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:02.445846] ERROR for https://walmart.com/en/ip/ViprTech-Reaper-1-0-Liquid-Cooled-PC-AMD-Ryzen-7-8700F-5GHz-RTX-3060-12G-16GB-DDR5-1TB-SSD/4XUCDUKOY17K?classType=VARIANT&athbdg=L1700
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:07.775188] ERROR for https://walmart.com/en/ip/HP-EliteDesk-800G1-Desktop-Computer-PC-Intel-Quad-Core-i5-512GB-SSD-16GB-DDR3-RAM-Windows-10-Pro-DVD-WIFI-19in-Monitor-USB-Keyboard-Mouse-Refurbished/6SJSFP3KOSLD?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:08.204811] ERROR for https://walmart.com/en/ip/A-Grade-Dell-Optiplex-5060-SFF-Computer-Desktop-PC-Hexa-Core-i5-Processor-Up-4-1GHz-32GB-RAM-1TB-SSD-WiFi-Bluetooth-4-0-NEW-27-inch-LED-Monitors-Type/1G8S160PATLO?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:08.629936] ERROR for https://walmart.com/en/ip/Used-Dell-Optiplex-7460-AIO-24-inch-Screen-Intel-Core-i7-8th-Gen-16GB-DDR4-RAM-512GB-SSD-Windows-10-Pro-Desktop-Computer/5OWS9ICVLGX0?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:09.408029] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=7&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FAuusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink%2F6BW5U13OGMMG&adUid=af2a7ce7-485e-4c4d-9c1c-cf9db196a9e8&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Igz_PG8Gs6Y7p44dJOJwTD-Zuqw-KCSN7RArUJ9CbbGoepbU_PrOlAfwU9KEWgU45SOGZdJHsOV84Mr5suv-7QpS-CL9WF9gej0ogWZjliwZwvj8F-L4fjX6FRRCscchNY3pp2u9cw0455SlVpgRfsV2niXuq2xo949QWbHouB7CgkNmro7l8M9vsCsRA3yZSfhQoGXojvpl78AEuL3C2ueFBLdyKGhAyf9lj9Al0qeVT2Ty5Ohunu6C0gIWaEiZ&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Auusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink/6BW5U13OGMMG
+Exception: AttributeError("'NoneType' object has no attribute 'string'")
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 57, in extract_product_info
+    data = json.loads(script_tag.string)
+                      ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'string'
+
+-----
+[2026-01-05T22:13:10.171287] ERROR for https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~&pos=7&tax=10003_20038&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FAuusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink%2F6BW5U13OGMMG&adUid=af2a7ce7-485e-4c4d-9c1c-cf9db196a9e8&mloc=sp-search-middle&pltfm=desktop&pgId=computers&pt=search&spQs=Igz_PG8Gs6Y7p44dJOJwTD-Zuqw-KCSN7RArUJ9CbbGoepbU_PrOlAfwU9KEWgU45SOGZdJHsOV84Mr5suv-7QpS-CL9WF9gej0ogWZjliwZwvj8F-L4fjX6FRRCscchNY3pp2u9cw0455SlVpgRfsV2niXuq2xo949QWbHouB7CgkNmro7l8M9vsCsRA3yZSfhQoGXojvpl78AEuL3C2ueFBLdyKGhAyf9lj9Al0qeVT2Ty5Ohunu6C0gIWaEiZ&storeId=3109&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&/en/ip/Auusda-16-Home-Laptop-Windows-11-Pro-Business-Computer-Intel-Core-i3-1000NG4-16GB-DDR4-RAM-1TB-SSD-Backlight-Fingerprint-Webcam-Pink/6BW5U13OGMMG
+Exception: AttributeError("'NoneType' object has no attribute 'string'")
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 57, in extract_product_info
+    data = json.loads(script_tag.string)
+                      ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'string'
+
+-----
+[2026-01-05T22:13:10.577155] ERROR for https://walmart.com/en/ip/ViprTech-Stryker-3-0-Gaming-PC-AMD-Ryzen-7-4-1GHz-RTX-3060-12G-16G-DDR4-1T-SSD-Desktop-Black/0ZHJF1WJJWFM?classType=REGULAR&athbdg=L1700&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:11.030914] ERROR for https://walmart.com/en/ip/ViprTech-Avalanche-2-0-Gaming-PC-AMD-Ryzen-7-4-1Ghz-AMD-RX-580-8GB-16GB-DDR4-512GB-SSD-White/10KKUSRBBXBE?classType=REGULAR&athbdg=L1700&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
+-----
+[2026-01-05T22:13:11.382029] ERROR for https://walmart.com/en/ip/Cyberpowerpc-Gamer-Supreme-Desktop-Intel-Core-i7-14700KF-SLC8960CPGV18/503CF9J514OG?classType=REGULAR&from=/search
+Exception: KeyError('product')
+Traceback:
+Traceback (most recent call last):
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 99, in main
+    product_info = extract_product_info(link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/amanmonga/WebScrapers/Walmart Prices/walmart.py", line 60, in extract_product_info
+    product_data = initial_data["product"]
+                   ~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'product'
+
